@@ -4,6 +4,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
+          <h2 style="text-align: center;">Team</h2>
+
+          <br />
           <!-- Card Slider -->
           <div class="slider-container">
             <div class="swiper-container card-slider">
@@ -13,7 +16,7 @@
                   <div class="card">
                     <img
                       class="card-image"
-                      src="images/testimonial-1.jpg"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQkKlpiH05Zmzy0FiFhnFaK8AfXLfrbJfVC2t5siz6GinlVILZ&s"
                       alt="alternative"
                     />
                     <div class="card-body">
@@ -30,7 +33,7 @@
                   <div class="card">
                     <img
                       class="card-image"
-                      src="images/testimonial-2.jpg"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_oVi9_AqmyhKDzmObVvyBrJzJAMnH6NhHTsLQ-gFh4KMnR6nJ&s"
                       alt="alternative"
                     />
                     <div class="card-body">
@@ -47,7 +50,7 @@
                   <div class="card">
                     <img
                       class="card-image"
-                      src="images/testimonial-3.jpg"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQyXKGZY4cyuJ2erNQebJHMKKzv2RwCjo9hCSxdxGzgXw227Nj&s"
                       alt="alternative"
                     />
                     <div class="card-body">
@@ -64,7 +67,7 @@
                   <div class="card">
                     <img
                       class="card-image"
-                      src="images/testimonial-3.jpg"
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkaz1oUQLtapkoCTO4dlgfmNayKY8StMN4q5b0uGf8FxPRxpza&s"
                       alt="alternative"
                     />
                     <div class="card-body">

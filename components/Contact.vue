@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h2>CONTACT</h2>
+          <h2>Contact</h2>
           <ul class="list-unstyled li-space-lg">
             <li class="address">
               Don't hesitate to send us a email or just use the contact form
