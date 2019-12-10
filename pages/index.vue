@@ -2,7 +2,8 @@
   <div class="container">
     <div>
       <h1 class="title">
-        PyroCode Software
+        <span style="color: #526488;" class="title1">PyroCode</span
+        ><span style="color: #E9524A;" class="title1">Software</span>
       </h1>
       <h2 class="subtitle">
         coding digital products with creative technologies
@@ -41,13 +42,20 @@ export default {}
   text-align: center;
 }
 
+span .title1 {
+  color: #526488;
+}
+
+span .title1 {
+  color: #5e3535;
+}
+
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
   letter-spacing: 1px;
 }
 
