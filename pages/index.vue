@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <!-- <Preloader /> -->
+    <Preloader />
     <Header />
     <Team />
     <Contact />
@@ -9,7 +9,7 @@
 </template>
 
 <script>
-// import Preloader from '~/components/Preloader'
+import Preloader from '~/components/Preloader'
 import Header from '@/components/Header'
 import Team from '@/components/Team'
 import Contact from '@/components/Contact'
@@ -17,7 +17,7 @@ import Footer from '@/components/Footer'
 
 export default {
   components: {
-    // Preloader,
+    Preloader,
     Header,
     Team,
     Contact,

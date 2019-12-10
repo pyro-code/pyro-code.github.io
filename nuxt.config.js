@@ -18,7 +18,8 @@ export default {
       }
     ],
     bodyAttrs: {
-      class: 'home-page home page page-id-4 page-template page-template-template-homepage page-template-template-homepage-php'
+      class:
+        'home-page home page page-id-4 page-template page-template-template-homepage page-template-template-homepage-php'
     },
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/icon.ico' },
@@ -37,15 +38,15 @@ export default {
       { rel: 'stylesheet', href: './css/styles.css' },
       { rel: 'stylesheet', href: './css/swiper.css' }
     ],
-    // script: [
-    //   { src: "./js/jquery.min.js" }, // jQuery for Bootstrap's JavaScript plugins
-    //   { src: "./js/bootstrap.min.js" }, // Bootstrap framework
-    //   { src: "./js/jquery.easing.min.js" }, // jQuery Easing for smooth scrolling between anchors
-    //   { src: "./js/morphext.min.js" }, // Morphtext rotating text in the header
-    //   { src: "./js/swiper.min.js" }, // Swiper for image and text sliders
-    //   { src: "./js/validator.min.js" }, // Validator.js - Bootstrap plugin that validates forms
-    //   { src: "./js/scripts.js" } // Custom scripts
-    // ]
+    script: [
+      { src: "./js/jquery.min.js" }, // jQuery for Bootstrap's JavaScript plugins
+      { src: "./js/bootstrap.min.js" }, // Bootstrap framework
+      { src: "./js/jquery.easing.min.js" }, // jQuery Easing for smooth scrolling between anchors
+      { src: "./js/morphext.min.js" }, // Morphtext rotating text in the header
+      { src: "./js/swiper.min.js" }, // Swiper for image and text sliders
+      { src: "./js/validator.min.js" }, // Validator.js - Bootstrap plugin that validates forms
+      { src: "./js/scripts.js" } // Custom scripts
+    ]
   },
   /*
    ** Customize the progress-bar color
