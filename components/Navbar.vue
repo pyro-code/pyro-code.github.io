@@ -25,7 +25,7 @@
       </button>
       <!-- end of mobile menu toggle button -->
 
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <div id="navbarsExampleDefault" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link page-scroll" href="#header">

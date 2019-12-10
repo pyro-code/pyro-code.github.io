@@ -4,75 +4,96 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-
           <!-- Card Slider -->
           <div class="slider-container">
             <div class="swiper-container card-slider">
               <div class="swiper-wrapper">
-
                 <!-- Slide -->
                 <div class="swiper-slide">
                   <div class="card">
-                    <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
+                    <img
+                      class="card-image"
+                      src="images/testimonial-1.jpg"
+                      alt="alternative"
+                    />
                     <div class="card-body">
                       <p class="testimonial-text">Rogério Araújo</p>
                       <p class="testimonial-author">Frontend/Backend</p>
                     </div>
                   </div>
-                </div> <!-- end of swiper-slide -->
+                </div>
+                <!-- end of swiper-slide -->
                 <!-- end of slide -->
 
                 <!-- Slide -->
                 <div class="swiper-slide">
                   <div class="card">
-                    <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
+                    <img
+                      class="card-image"
+                      src="images/testimonial-2.jpg"
+                      alt="alternative"
+                    />
                     <div class="card-body">
                       <p class="testimonial-text">Junio Matias</p>
                       <p class="testimonial-author">Product/Marketer</p>
                     </div>
                   </div>
-                </div> <!-- end of swiper-slide -->
+                </div>
+                <!-- end of swiper-slide -->
                 <!-- end of slide -->
 
                 <!-- Slide -->
                 <div class="swiper-slide">
                   <div class="card">
-                    <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
+                    <img
+                      class="card-image"
+                      src="images/testimonial-3.jpg"
+                      alt="alternative"
+                    />
                     <div class="card-body">
                       <p class="testimonial-text">Aguirre Sabino</p>
                       <p class="testimonial-author">Frontend/Backend</p>
                     </div>
                   </div>
-                </div> <!-- end of swiper-slide -->
+                </div>
+                <!-- end of swiper-slide -->
                 <!-- end of slide -->
 
-                 <!-- Slide -->
-                 <div class="swiper-slide">
+                <!-- Slide -->
+                <div class="swiper-slide">
                   <div class="card">
-                    <img class="card-image" src="images/testimonial-3.jpg" alt="alternative">
+                    <img
+                      class="card-image"
+                      src="images/testimonial-3.jpg"
+                      alt="alternative"
+                    />
                     <div class="card-body">
                       <p class="testimonial-text">Fernanda Vieira</p>
                       <p class="testimonial-author">Frontend/Backend</p>
                     </div>
                   </div>
-                </div> <!-- end of swiper-slide -->
+                </div>
+                <!-- end of swiper-slide -->
                 <!-- end of slide -->
-
-
-              </div> <!-- end of swiper-wrapper -->
+              </div>
+              <!-- end of swiper-wrapper -->
 
               <!-- Add Arrows -->
               <div class="swiper-button-next"></div>
               <div class="swiper-button-prev"></div>
               <!-- end of add arrows -->
-
-            </div> <!-- end of swiper-container -->
-          </div> <!-- end of slider-container -->
+            </div>
+            <!-- end of swiper-container -->
+          </div>
+          <!-- end of slider-container -->
           <!-- end of card slider -->
-
-        </div> <!-- end of col -->
-      </div> <!-- end of row -->
-    </div> <!-- end of container -->
-  </div> <!-- end of slider-1 -->
+        </div>
+        <!-- end of col -->
+      </div>
+      <!-- end of row -->
+    </div>
+    <!-- end of container -->
+  </div>
+  <!-- end of slider-1 -->
   <!-- end of out team -->
 </template>
