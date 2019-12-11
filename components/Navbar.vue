@@ -6,9 +6,9 @@
       <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
 
       <!-- Image Logo -->
-      <a class="navbar-brand logo-image" href="index.html">
+      <nuxt-link class="navbar-brand logo-image" to="/">
         <img src="images/logo.svg" alt="alternative" />
-      </a>
+      </nuxt-link>
 
       <!-- Mobile Menu Toggle Button -->
       <button
