@@ -28,7 +28,7 @@
               <div class="image-container">
                 <img
                   class="img-fluid"
-                  src="https://307693.smushcdn.com/1164224/wp-content/uploads/2019/06/Landing1f.png?lossy=0&strip=1&webp=1"
+                  src="/images/header-bg.png"
                   alt="alternative"
                 />
               </div>
