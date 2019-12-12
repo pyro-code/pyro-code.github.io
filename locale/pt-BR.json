@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Início",
+    "our_team": "Nossa equipe",
+    "contact_us": "Contato"
+  },
+  "header": {
+    "our_service": "Nossos serviços são",
+    "service_01": "Consultoria",
+    "service_02": "Designer de produto",
+    "more": "e muito mais!",
+    "header_description": "Codificamos produtos digitais com tecnologias criativas e focamos na qualidade de back-end até o front-end!",
+    "contact_button": "Entre em contato agora!"
+  },
+  "team": {
+    "team_title": "Equipe"
+  },
+  "contact": {
+    "contact_title": "Contato",
+    "contact_description": "Não hesite em nos enviar um e-mail ou use o formulário de contato abaixo",
+    "form_input_01": "Nome",
+    "form_input_02": "Email",
+    "form_input_03": "Sua mensagem",
+    "form_button": "Enviar mensagem"
+  },
+  "footer": {
+    "footer_title": "Sobre a PyroCode",
+    "about": "PyroCode é uma inovação digital, criamos projetos para empresas que visam criar produtos de próximo nível.",
+    "social_media": "Redes Sociais"
+  }
+}

@@ -29,20 +29,24 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link page-scroll" href="#header">
-              HOME
+              {{ $t('nav.home') }}
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="#our-team">OUR TEAM</a>
+            <a class="nav-link page-scroll" href="#our-team">
+              {{ $t('nav.our_team') }}
+            </a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link page-scroll" href="#contact">CONTACT US</a>
+            <a class="nav-link page-scroll" href="#contact">
+              {{ $t('nav.contact_us') }}
+            </a>
           </li>
         </ul>
         <span class="nav-item social-icons">
-          <span class="fa-stack">
+          <!-- <span class="fa-stack">
             <a href="https://instagram.com/pyrocodesoftware">
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fab fa-instagram fa-stack-1x"></i>
@@ -53,7 +57,15 @@
               <i class="fas fa-circle fa-stack-2x"></i>
               <i class="fab fa-twitter fa-stack-1x"></i>
             </a>
-          </span>
+          </span> -->
+
+          <nuxt-link v-if="$i18n.locale !== 'en'" :to="switchLocalePath('en')">
+            🇺🇸
+          </nuxt-link>
+
+          <nuxt-link v-if="$i18n.locale !== 'pt'" :to="switchLocalePath('pt')">
+            🇧🇷
+          </nuxt-link>
         </span>
       </div>
     </nav>

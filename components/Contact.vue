@@ -4,11 +4,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h2>Contact</h2>
+          <h2>{{ $t('contact.title') }}</h2>
           <ul class="list-unstyled li-space-lg">
             <li class="address">
-              Don't hesitate to send us a email or just use the contact form
-              below
+              {{ $t('contact.description') }}
             </li>
             <li>
               <i class="fas fa-map-marker-alt"></i>Cajazeiras, Paraíba, PB -
@@ -37,7 +36,9 @@
                 class="form-control-input"
                 required
               />
-              <label class="label-control" for="cname">Name</label>
+              <label class="label-control" for="cname">
+                {{ $t('contact.form_input_01') }}
+              </label>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group">
@@ -47,7 +48,9 @@
                 class="form-control-input"
                 required
               />
-              <label class="label-control" for="cemail">Email</label>
+              <label class="label-control" for="cemail">
+                {{ $t('contact.form_input_02') }}
+              </label>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group">
@@ -56,12 +59,14 @@
                 class="form-control-textarea"
                 required
               ></textarea>
-              <label class="label-control" for="cmessage">Your message</label>
+              <label class="label-control" for="cmessage">
+                {{ $t('contact.form_input_03') }}
+              </label>
               <div class="help-block with-errors"></div>
             </div>
             <div class="form-group">
               <button type="submit" class="form-control-submit-button">
-                SUBMIT MESSAGE
+                {{ $t('contact.form_button') }}
               </button>
             </div>
             <div class="form-message">

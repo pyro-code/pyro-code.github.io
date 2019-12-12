@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h2 style="text-align: center;">Team</h2>
+          <h2 style="text-align: center;">{{ $t('team.title') }}</h2>
 
           <br />
           <!-- Card Slider -->

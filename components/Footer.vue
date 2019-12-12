@@ -6,10 +6,9 @@
         <div class="row">
           <div class="col-md-4">
             <div class="footer-col">
-              <h4>About PyroCode</h4>
+              <h4>{{ $t('footer.title') }}</h4>
               <p>
-                PyroCode is a digital innovation, we build projects for for
-                companies that aim to build next level products.
+                {{ $t('footer.about') }}
               </p>
             </div>
           </div>
@@ -17,7 +16,7 @@
 
           <div class="col-md-4">
             <div class="footer-col last">
-              <h4>Social Media</h4>
+              <h4>{{ $t('footer.social_media') }}</h4>
               <!-- <span class="fa-stack">
                   <a href="#your-link">
                     <i class="fas fa-circle fa-stack-2x"></i>

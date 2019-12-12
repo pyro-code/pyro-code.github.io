@@ -9,18 +9,19 @@
             <div class="col-lg-6">
               <div class="text-container">
                 <h2>
-                  Our services are <br /><span id="js-rotating"
-                    >Web Development, Tech Consulting, Product Designer, and
-                    more!</span
-                  >
+                  {{ $t('header.our_service') }}
+                  <br />
+                  <span id="js-rotating">
+                    {{ $t('header.service_01') }},
+                    {{ $t('header.service_02') }},
+                    {{ $t('header.service_03') }},
+                    {{ $t('header.more') }}
+                  </span>
                 </h2>
-                <p class="p-large">
-                  We coding digital products with creative technologies and
-                  focus in quality from backend to frontend!
-                </p>
-                <a class="btn-solid-lg page-scroll" href="#contact"
-                  >CONTACT US NOW!</a
-                >
+                <p class="p-large">{{ $t('header.description') }}</p>
+                <a class="btn-solid-lg page-scroll" href="#contact">
+                  {{ $t('header.contact_button') }}
+                </a>
               </div>
             </div>
             <!-- end of col -->

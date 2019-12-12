@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Home",
+    "our_team": "Our team",
+    "contact_us": "Contact"
+  },
+  "header": {
+    "our_service": "Our services are",
+    "service_01": "Web Development",
+    "service_02": "Tech Consulting",
+    "service_03": "Product Designer",
+    "more": "and more!",
+    "header_description": "We coding digital products with creative technologies and focus in quality from backend to frontend!",
+    "contact_button": "Contact us now!"
+  },
+  "team": {
+    "team_title": "Team"
+  },
+  "contact": {
+    "contact_title": "Contact",
+    "contact_description": "Don't hesitate to send us a email or just use the contact form below",
+    "form_input_01": "Name",
+    "form_input_02": "Email",
+    "form_input_03": "You message",
+    "form_button": "Submit message"
+  },
+  "footer": {
+    "footer_title": "About PyroCode",
+    "about": "PyroCode is a digital innovation, we build projects for for companies that aim to build next level products.",
+    "social_media": "Social Media"
+  }
+}
