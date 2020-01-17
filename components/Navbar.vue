@@ -7,7 +7,7 @@
 
       <!-- Image Logo -->
       <nuxt-link class="navbar-brand logo-image" to="/">
-        <img src="images/logo.svg" alt="alternative" />
+        <img src="images/pyrocode_logo_2.svg" alt="alternative" />
       </nuxt-link>
 
       <!-- Mobile Menu Toggle Button -->
